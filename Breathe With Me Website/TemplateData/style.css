@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e9e9e9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  #unity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: static;
+  }
+  
+  #unity-canvas {
+    display: block;
+    background: #1b2d46;
+    max-height: 85vh;
+    width: auto;
+    aspect-ratio: 9 / 16;
+  }
+  
+  #unity-loading-bar,
+  #unity-warning {
+    position: absolute;
+  }
